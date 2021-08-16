@@ -1,0 +1,12 @@
+kmeans.c 
+	compile: gcc kmeans.c -o kmeans 
+	entrada: 
+		primeira linha -> k 
+		segunda linha  -> n 
+		k linhas       -> (x,y,z) dos k centróides
+		n linhas       -> (x,y,z) dos n pontos 
+	exemplo de execução: ./kmeans < 10x1.txt
+
+geinput.py 
+	python geinput.py [K][N]
+	Você pode redirecionar a saída para um arquivo usando > 
